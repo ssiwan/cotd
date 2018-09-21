@@ -47,8 +47,18 @@ if ( empty($_SESSION['SELECTOR']) ) {
         $_SESSION['SELECTOR'] = 'pets';
     }
 
-}                                     
+}
+
+
+
+######################################
+## Change theme here
+######################################
 $_SESSION['SELECTOR'] = 'cities';
+
+
+
+
 
 if ( !empty($_SESSION['service']) ) {
     $service = $_SESSION['service'];
